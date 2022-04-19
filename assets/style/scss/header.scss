@@ -1,0 +1,68 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    &__line--flex {
+        margin-top: 50px;
+        padding: 2px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+            &__item-left--size {
+                max-width: 155px;
+                max-height: 62px;
+            }
+                &__logo--size {
+                    width: 100%;
+                }
+            &__nav--lang {
+                margin-right: 20px;
+                display: flex;
+                gap: 10px;
+            }
+            &__language-link {
+                width: 20px;
+                height: 16px;
+                border-radius: 30%;
+            }
+            &__language-link:active {
+                width: 20px;
+                height: 16px;
+                background-color: $color-Accent_Red;
+                border-radius: 30%;
+            }
+            &__span--lang {
+                font-size: 20px;
+            }
+                &__contacts--flex {
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 10px;
+                    margin-bottom: 16px;
+                    min-height: 27px;
+                    align-items: center;
+                }
+                    &__span--before::before {
+                        content: "\2022";
+                        position: relative;
+                        top: 3px;
+                        right: 5px;
+                    }
+                &__languages--flex {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 5px;
+                }
+                &__ul--flex {
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 15px;
+                    margin: 0;
+                    padding: 0;
+                }
+                    &__li {
+                        display: inline-block;
+                        text-decoration: none;
+                    }
+}

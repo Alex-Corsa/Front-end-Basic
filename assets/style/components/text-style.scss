@@ -1,0 +1,49 @@
+.span--text {
+    @include text (normal,400,16px,19px,right,$color-White);
+}
+
+.hero--text {
+    @include some_text (42px,50px);
+}
+
+.hero_mobile--text {
+    @include some_text (32px,38px);
+}
+
+.h2--text {
+    @include some_text (32px,38px);
+}
+
+.h2_mobile--text {
+    @include some_text (22px,26px);
+}
+
+.h3--text {
+    @include some_text (24px,28px);
+}
+
+.h3_mobile--text {
+    @include some_text (18px,21px);
+}
+
+.h3_caps--text {
+    @include some_text (14px,17px);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.h4--text {
+    @include some_text (16px,21px);
+}
+
+.paragraph--text {
+    @include some_text (18px,26px);
+}
+
+.paragraph_min--text {
+    @include some_text (16px,22px);
+}
+
+.introduction--text {
+    @include some_text (21px,30px);
+}

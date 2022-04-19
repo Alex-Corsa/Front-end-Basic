@@ -1,0 +1,13 @@
+@mixin text ($f-st,$f-w,$f-s,$l-h,$t-al,$col) {
+    font-style: $f-st;
+    font-weight: $f-w;
+    font-size: $f-s;
+    line-height: $l-h;
+    text-align: $t-al;
+    color: $col;
+}
+
+@mixin some_text ($f-s,$l-h) {
+    font-size: $f-s;
+    line-height: $l-h;
+}

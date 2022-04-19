@@ -1,0 +1,30 @@
+.container--size {
+    max-width: 1440px;
+}
+.section-5 {
+    &__h4 {
+        margin: 0 auto;
+        padding: 36px 0 30px;
+        color: $color-Main;
+        text-align: center;
+    }
+    &__menu {
+        display: block;
+    }
+        &__ul--flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+            &__li--link {
+                border: none;
+                padding: 0px;
+                margin: 0;
+                width: 25%;
+                display: block;
+            }
+                &__anchor {
+                    display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                }
+}

@@ -1,0 +1,65 @@
+.section-2 {
+    background: $color-Gradient_Supersoft;
+    &__services {
+        padding-top: 10px;
+    }
+    &__services-anchor {
+        color: $color-White;
+        opacity: 0.5;
+    }
+    &__services-anchor::after {
+        content: " \3E";
+        padding-right: 2px;
+        
+    }
+    &__h2 {
+        margin-top: 5px;
+        margin-bottom: 68px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &__services-grid:last-child {
+        margin-bottom: 22px;
+    }
+    &__service {
+        margin-bottom: 58px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__h3 {
+        padding: 15px 0 20px 0;
+        color: $color-Active;
+    }
+    &__p {
+        margin: 0;
+        color: $color-White;
+    }
+    &__shadow {
+        position: relative;
+    }
+        &__shadow-bg-1 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0%;
+            bottom: 50%;
+            background: #CACADB;
+            border-radius: 0px 0px 12px 12px;
+            height: 10px;
+        }
+        &__shadow-bg-2 {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            top: 100%;
+            bottom: 50%;
+            background: #E7E7F2;
+            ;
+            border-radius: 0px 0px 12px 12px;
+            height: 10px;
+        }
+}

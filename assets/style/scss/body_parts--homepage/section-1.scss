@@ -30,16 +30,37 @@
         bottom: 0px;
         background: linear-gradient(180deg, rgba(69, 50, 100, 0) 16.67%, #323264 100%);
     }
-    &__inet-info {
-        text-align: right;
+    &__flex {
+        display: flex;
+        margin-top: 80px;
     }
-        &__h2--text {
-            position: relative;
-            color: $color-Text_Grey;
-            border-right: 3px solid $color-Text_Grey;
-            padding-right: 40px;
-            margin: 0;
+        &__inet-left {
+            text-align: right;
         }
+            &__li--text {
+                position: relative;
+                color: $color-Text_Grey;
+                border-right: 3px solid $color-Text_Grey;
+                padding-right: 40px;
+                margin: 0;
+            }
+            &__li--text:hover {
+                color: $color-Accent_Red;
+                border-right: 3px solid $color-Accent_Red;
+            }
+        &__inet-right {
+            padding-left: 40px;
+        }
+            &__h2--style {
+                max-width: 600px;
+                margin-top: 50px;
+                color: $color-White;
+            }
+            &__p--style {
+                max-width: 600px;
+                margin-top: 20px;
+                color: $color-White;
+            }
 }
 
 

@@ -123,6 +123,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__logo--size {
   width: 100%;
+  transition-duration: 1s;
+}
+.header__logo--size:hover {
+  transform: scale(0.8);
 }
 .header__nav--lang {
   margin-right: 20px;
@@ -134,9 +138,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 16px;
   border-radius: 30%;
 }
-.header__language-link:active {
+.header__language-link:active, .header__language-link:hover {
   width: 20px;
   height: 16px;
+  padding: 5px;
   background-color: #F0145A;
   border-radius: 30%;
 }
@@ -172,6 +177,11 @@ h1, h2, h3, h4, h5, h6 {
 .header__li {
   display: inline-block;
   text-decoration: none;
+}
+
+.text--shadow:hover {
+  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
 }
 
 .section-1 {
@@ -212,15 +222,36 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0px;
   background: linear-gradient(180deg, rgba(69, 50, 100, 0) 16.67%, #323264 100%);
 }
-.section-1__inet-info {
+.section-1__flex {
+  display: flex;
+  margin-top: 80px;
+}
+.section-1__inet-left {
   text-align: right;
 }
-.section-1__h2--text {
+.section-1__li--text {
   position: relative;
   color: #B3B3BA;
   border-right: 3px solid #B3B3BA;
   padding-right: 40px;
   margin: 0;
+}
+.section-1__li--text:hover {
+  color: #F0145A;
+  border-right: 3px solid #F0145A;
+}
+.section-1__inet-right {
+  padding-left: 40px;
+}
+.section-1__h2--style {
+  max-width: 600px;
+  margin-top: 50px;
+  color: #FFFFFF;
+}
+.section-1__p--style {
+  max-width: 600px;
+  margin-top: 20px;
+  color: #FFFFFF;
 }
 
 .accordion-item {

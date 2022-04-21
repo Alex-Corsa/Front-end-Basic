@@ -15,6 +15,10 @@
             }
                 &__logo--size {
                     width: 100%;
+                    transition-duration: 1s;
+                }
+                &__logo--size:hover {
+                    transform: scale(0.8);
                 }
             &__nav--lang {
                 margin-right: 20px;
@@ -26,9 +30,10 @@
                 height: 16px;
                 border-radius: 30%;
             }
-            &__language-link:active {
+            &__language-link:active, &__language-link:hover {
                 width: 20px;
                 height: 16px;
+                padding: 5px;
                 background-color: $color-Accent_Red;
                 border-radius: 30%;
             }
@@ -66,3 +71,9 @@
                         text-decoration: none;
                     }
 }
+
+.text--shadow:hover {
+    box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgb(0 0 0 / 0%);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgb(0 0 0 / 0%);
+}
+

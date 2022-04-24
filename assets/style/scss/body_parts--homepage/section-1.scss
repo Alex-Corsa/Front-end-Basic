@@ -92,3 +92,64 @@
 .accordion-img::after {
     transform: rotate(-180deg);
 }
+
+@media screen and (min-width: 377px) {
+    .section-1__carousel-info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .section-1__img-frame {
+        display: none;
+    }
+    .section-1__Symbol--position {
+        position: absolute;
+        left: -112px;
+        right: 0;
+        top: 25px;
+    }
+    .section-1__wrapper--position {
+        width: 100%;
+        min-height: 650px;
+        padding-top: 242px
+    }
+    .section-1__h1--text {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        z-index: 2;
+        @include text (normal,400,38px,45px,center,$color-White); 
+    }
+    .accordion_images {
+        position: relative;
+        left: -20px;
+        bottom: 0;
+        right: 0;
+    }
+    .accordion-body, .section-1__flex {
+        display: none;
+    }
+    .section-1__carousel-box {
+        margin-top: 40px;
+        padding-bottom: 81px;
+    }
+    .section-1__carousel-a {
+        @include some_text (14px,17px);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-Accent_Red;
+    }
+    .section-1__carousel-h2 {
+        @include some_text (22px,26px);
+        color: $color-White;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .section-1__carousel-p {
+        @include some_text (18px,26px);
+        color: $color-White;
+        margin-bottom: 20px;
+    }
+    
+}

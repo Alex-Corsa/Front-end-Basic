@@ -83,3 +83,11 @@
                 box-shadow: 0px 0px 20px rgb(36 163 255 / 50%);
             }
 }
+
+@media screen and (max-width: 376px) {
+    .section-6__wrapp--flex {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+}

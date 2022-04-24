@@ -38,3 +38,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1380px;
     padding: 0 20px;
 }
+
+@media screen and (max-width: 376px) {
+    body {
+        max-width: 375px;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 375px;
+    }
+}

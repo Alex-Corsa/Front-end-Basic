@@ -14,17 +14,42 @@
     <header id="1" class="header">
         <div class="container">
             <div class="header__line header__line--flex">
-                <div class="header__item-left header__item-left--size">
-                    <a class="header__anchor-homepage" href="">
-                        <img class="header__logo header__logo--size" src="./images/header--images/Logo_Min.svg" alt="logo">
-                    </a>
-                    <div class="header__menu-burger"></div>
+                <div class="header__navBar">
+                    <div class="header__item-left header__item-left--size">
+                        <a class="header__anchor-homepage" href="#">
+                            <img class="header__logo header__logo--size" src="./images/header--images/Logo_Min.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__menu-burger">
+                        <ul class="nav__menu">
+                            <li class="nav__item">
+                                <a href="./pages/about.html" class="nav__link">о нас</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">послуги</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">команда</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">публікації</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">контакти</a>
+                            </li>
+                        </ul>
+                        <div class="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="header__item-right header__item-right--size">
                     <div class="header__contacts header__contacts--flex">
                         <div class="header__languages--flex">
                             <nav class="header__nav header__nav--lang">
-                                <li class="header__link active"><a class="header__language-link active" href=""><span class="header__span header__span--lang span--text active">ук</span></a></li>
+                                <li class="header__link"><a class="header__language-link" href=""><span class="header__span header__span--lang span--text active">ук</span></a></li>
                                 <li class="header__link"><a class="header__language-link" href=""><span class="header__span header__span--lang span--text">ру</span></a></li>
                                 <li class="header__link"><a class="header__language-link" href=""><span class="header__span header__span--lang span--text">en</span></a></li>
                             </nav>
@@ -32,10 +57,10 @@
                         <div class="header__adres">
                             <span class=" header__span header__span--before text--shadow span--text">Одеса, Адміральський пр., 3</span>
                         </div>
-                        <div class="htader__phone">
+                        <div class="header__phone">
                             <span class="header__span header__span--before text--shadow span--text">+38 (050) 390 15 91</span>
                         </div>
-                        <div class="hrader__icon">
+                        <div class="header__icon">
                             <a href="#">
                                 <img src="./images/header--images/Facebook.svg" alt="Facebook">
                             </a>
@@ -45,28 +70,28 @@
                         <nav class="header__nav-bar">
                             <ul class="header__ul header__ul--flex">
                                 <li class="header__li">
-                                    <a href="">
-                                        <span class="header__nav-span span--text text--shadow">о нас</span>
+                                    <a href="./pages/about.html">
+                                        <span class="header__nav-span span--text text--border">о нас</span>
                                     </a>
                                 </li>
                                 <li class="header__li">
                                     <a href="">
-                                        <span class="header__nav-span span--text text--shadow">послуги</span>
+                                        <span class="header__nav-span span--text text--border">послуги</span>
                                     </a>
                                 </li>
                                 <li class="header__li">
                                     <a href="">
-                                        <span class="header__nav-span span--text text--shadow">команда</span>
+                                        <span class="header__nav-span span--text text--border">команда</span>
                                     </a>
                                 </li>
                                 <li class="header__li">
                                     <a href="">
-                                        <span class="header__nav-span span--text text--shadow">публікації</span>
+                                        <span class="header__nav-span span--text text--border">публікації</span>
                                     </a>
                                 </li>
                                 <li class="header__li">
                                     <a href="">
-                                        <span class="header__nav-span span--text text--shadow">контакти</span>
+                                        <span class="header__nav-span span--text text--border">контакти</span>
                                     </a>
                                 </li>
                             </ul>
@@ -542,5 +567,6 @@
     </footer>
     
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/hamb_menu.js"></script>
 </body>
 </html>

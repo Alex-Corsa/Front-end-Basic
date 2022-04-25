@@ -79,6 +79,9 @@
 }
 
 @media screen and (max-width: 376px) {
+    .carousel-inner {
+        margin-bottom: 61px;
+    }
     .wrapper-carousel_all {
         max-width: 375px;
         padding: 0 15px;
@@ -91,8 +94,27 @@
     .carousel-photo, .carousel-hero4, .carousel-paragraf {
         display: none;
     }
+    .carousel-hero2 {
+        @include some_text (32px,38px);
+    }
     .carousel-card {
-        display: inline-block;
+        display: flex;
+    }
+    .carousel-avatar {
+        margin-right: 10px;
+    }
+    .carousel-blocInfo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .carousel-lastname {
+        @include some_text (16px,21px);
+        color: $color-Text_Grey;
+    }
+    .carousel-position {
+        @include some_text (16px,22px);
+        color: $color-Text_Grey;
     }
 }
 

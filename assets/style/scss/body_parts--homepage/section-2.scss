@@ -74,24 +74,42 @@
 
 @media (max-width: 376px) {
     .section-2__h2 {
-        @include some_text (32px,38px);
+        display: flex;
         margin-bottom: 20px;
+        @include some_text (32px,38px)
     }
     .section-2__services-grid {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        padding-bottom: 20px;
     }
     .section-2__service {
         display: inline;
+        margin: 0;
     }
     .section-2__icon {
         width: 62px;
         height: 62px;
+        margin-right: 10px
     }
     .section-2__h3 {
+        max-width: 259px;
         @include some_text (32px,38px);
-        width: 260px;
         display: inline-block;
+        vertical-align: top;
+    }
+    .section-2__h3-2 {
+        vertical-align: bottom;
+    }
+    .section-2__anchor {
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+    }
+    .section-2__p {
+        @include some_text (16px,22px);
+        margin-top: 10px;
     }
 }

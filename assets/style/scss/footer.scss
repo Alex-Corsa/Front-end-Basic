@@ -81,3 +81,46 @@
                 text-align: right;
             }
 }
+
+@media screen and (min-width: 377px) {
+    .footer__item-mobil {
+        display: none;
+    }
+}
+@media screen and (max-width: 376px) {
+    .footer__wrapper {
+        display: none;
+    }
+    .footer {
+        margin: 0;
+    }
+    .footer__item-mobil {
+        text-align: center;
+    }
+    .footer__span-adres--style {
+        display: block;
+        margin-top: 20px;
+    }
+    .footer__a-upper--style {
+        display: block;
+        margin-top: 10px;
+    }
+    .footer__img {
+        margin: auto;
+        margin: 20px 0;
+    }
+    .footer__span--style {
+        display: block;
+        text-align: center;
+    }
+    .footer__a-lower--style {
+        display: block;
+        margin: 20px 0;
+    }
+    .footer__span-company--style {
+        display: block;
+        text-align: center;
+        padding-bottom: 118px;
+    }   
+    
+}

@@ -18,6 +18,7 @@
                     <a class="header__anchor-homepage" href="">
                         <img class="header__logo header__logo--size" src="./images/header--images/Logo_Min.svg" alt="logo">
                     </a>
+                    <div class="header__menu-burger"></div>
                 </div>
                 <div class="header__item-right header__item-right--size">
                     <div class="header__contacts header__contacts--flex">
@@ -167,12 +168,8 @@
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span> -->
                                         </button>
                                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span> -->
                                         </button>
                                     </div>
 
@@ -192,32 +189,32 @@
                     <div class="section-2__services-grid">
                         <div class="section-2__service">
                             <img class="section-2__icon" src="./images/Icon1.svg" alt="Icon1">
-                            <h3 class="section-2__h3 h3--text"><a href="">IT та електронна комерція</a></h3>
+                            <h3 class="section-2__h3 section-2__h3-2 h3--text"><a class="section-2__anchor" href="">IT та електронна комерція</a></h3>
                             <p class="section-2__p paragraph--text">Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста. </p>
                         </div>
                         <div class="section-2__service">
                             <img class="section-2__icon" src="./images/Icon2.svg" alt="Icon2">
-                            <h3 class="section-2__h3 h3--text"><a href="">Комплексний щоденний юридичний супровід</a></h3>
+                            <h3 class="section-2__h3 h3--text"><a class="section-2__anchor" href="">Комплексний щоденний юридичний супровід</a></h3>
                             <p class="section-2__p paragraph--text">До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у сфері інформаційних технологій.</p>
                         </div>
                         <div class="section-2__service">
                             <img class="section-2__icon" src="./images/Icon3.svg" alt="Icon3">
-                            <h3 class="section-2__h3 h3--text"><a href="">Структуризація корпоративних відносин</a></h3>
+                            <h3 class="section-2__h3 h3--text"><a class="section-2__anchor" href="">Структуризація корпоративних відносин</a></h3>
                             <p class="section-2__p paragraph--text">Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які впишуться в повсякденне життя вашої компанії.</p>
                         </div>
                         <div class="section-2__service">
                             <img class="section-2__icon" src="./images/Icon4.svg" alt="Icon4.svg">
-                            <h3 class="section-2__h3 h3--text"><a href="">Побудовa договірних відносин</a></h3>
+                            <h3 class="section-2__h3 section-2__h3-2  h3--text"><a class="section-2__anchor" href="">Побудовa договірних відносин</a></h3>
                             <p class="section-2__p paragraph--text">Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні справи замість очікування статусу update.</p>
                         </div>
                         <div class="section-2__service">
                             <img class="section-2__icon" src="./images/Icon5.svg" alt="Icon5">
-                            <h3 class="section-2__h3 h3--text"><a href="">Захист бізнесу, інтелектуальної власності</a></h3>
+                            <h3 class="section-2__h3 h3--text"><a class="section-2__anchor" href="">Захист бізнесу, інтелектуальної власності</a></h3>
                             <p class="section-2__p paragraph--text">А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.</p>
                         </div>
                         <div class="section-2__service">
                             <img class="section-2__icon" src="./images/Icon6.svg" alt="Icon6">
-                            <h3 class="section-2__h3 h3--text"><a href="">Судове представництво</a></h3>
+                            <h3 class="section-2__h3 section-2__h3-2  h3--text"><a class="section-2__anchor" href="">Судове представництво</a></h3>
                             <p class="section-2__p paragraph--text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?</p>
                         </div>
                     </div>
@@ -252,8 +249,10 @@
                                         <p class="carousel-paragraf" >Керуючий партнер</p>                                        
                                         <div class="carousel-card">
                                             <img class="carousel-avatar" src="./images/avatar.svg" alt="avatar">
-                                            <h4 class="carousel-lastname" >Олександр Кац</h4>
-                                            <p class="carousel-position" >Керуючий партнер</p>
+                                            <div class="carousel-blocInfo">
+                                                <h4 class="carousel-lastname" >Олександр Кац</h4>
+                                                <p class="carousel-position" >Керуючий партнер</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -270,8 +269,10 @@
                                         <p class="carousel-paragraf" >Керуючий партнер</p>
                                         <div class="carousel-card">
                                             <img class="carousel-avatar" src="./images/avatar.svg" alt="avatar">
-                                            <h4 class="carousel-lastname" >Олександр Кац</h4>
-                                            <p class="carousel-position" >Керуючий партнер</p>
+                                            <div class="carousel-blocInfo">
+                                                <h4 class="carousel-lastname" >Олександр Кац</h4>
+                                                <p class="carousel-position" >Керуючий партнер</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -288,8 +289,10 @@
                                         <p class="carousel-paragraf" >Керуючий партнер</p>
                                         <div class="carousel-card">
                                             <img class="carousel-avatar" src="./images/avatar.svg" alt="avatar">
-                                            <h4 class="carousel-lastname" >Олександр Кац</h4>
-                                            <p class="carousel-position" >Керуючий партнер</p>
+                                            <div class="carousel-blocInfo">
+                                                <h4 class="carousel-lastname" >Олександр Кац</h4>
+                                                <p class="carousel-position" >Керуючий партнер</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -426,9 +429,10 @@
 
         <section class="section-6">
             <div class="container">
-                <a class="section-6__services-anchor h3_caps--text" href="">послуги</a>
+                <a class="section-6__services-anchor h3_caps--text" href="">публікації</a>
                 <h2 class="section-6__h2 hero--text">Нам э що розказати</h2>
                 <div class="section-6__wrapper section-6__wrapper--position">
+
                     <div class="section-6__wrapp section-6__wrapp--flex">
                         <div class="section-6__block">
                             <div class="section-6__item section-6__item--size">
@@ -474,6 +478,29 @@
                         </div>
                         <div class="section-6__shadow section-6__shadow--bg"></div>
                     </div>
+
+                    <div class="section-6__wrapp-mobil section-6__wrapp-mobil--flex">
+
+                        <div class="section-6__block-mobil">
+                            <div class="section-6__item-mobil section-6__item--size-mobil">
+                                <a class="section-6__anchor-mobil h4--text" href="#">Валютний контроль помер, хай живе валютний контроль!</a>
+                                <h4 class="section-6__h4-mobil section-6__h4--style">14 червня</h4>                                
+                            </div>
+                        </div>
+                        <div class="section-6__block-mobil">
+                            <img class="section-6__img-mobil  section-6__img--size-mobil" src="./images/image2.jpg" alt="image2">
+                            <div class="section-6__item-mobil section-6__item--size-mobil2">                                
+                                <a class="section-6__anchor-mobil h4--text" href="#">Заповіт міленіала</a>
+                                <h4 class="section-6__h4-mobil section-6__h4--style">19 серпня</h4>                               
+                            </div>
+                        </div>
+                        <div class="section-6__block-mobil">
+                            <img class="section-6__img-mobil section-6__img--size-mobil" src="./images/image1.jpg" alt="image2">
+                            <div class="section-6__item-mobil section-6__item--size-mobil2">
+                                <a class="section-6__anchor-mobil h4--text" href="#">Equity associate</a>
+                                <h4 class="section-6__h4-mobil section-6__h4--style">22 квітня</h4>                                
+                            </div>
+                        </div>
                     <div class="section-6__inner-btn section-6__inner-btn">
                         <button class="section-6__button section-6__button--btn">Ще публікації</button>
                     </div>                    
@@ -485,6 +512,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__item footer__item--line"></div>
+
             <div class="footer__wrapper footer__wrapper--flex">
                 <div class="footer__item-left footer__item-left--flex">
                     <div class="footer__inner footer__inner--upper">
@@ -500,10 +528,16 @@
                         <a class="footer__a footer__a-lower--style" href="">contact@hlegals.net</a>
                     </div>
                 </div>
-                <div class="footer__item-right footer__item-right--flex">
-                    <span class="footer__span footer__span-company--style">© 2021 ТОВ Юридична компанія «HLEGALS»</span>
-                </div>
             </div>
+
+            <div class="footer__item-mobil">
+                <span class="footer__span footer__span-adres--style text--shadow">Одеса, Адміральський пр., 3</span>
+                <a class="footer__a footer__a-upper--style" href="">подивитися на мапі</a>
+                <img class="footer__img footer__img" src="./images/footer--images/Facebook-fotter.svg" alt="Facebook">
+                <span class="footer__span footer__span--style text--shadow">+38 (050) 390 15 91</span>
+                <a class="footer__a footer__a-lower--style" href="">contact@hlegals.net</a>
+                <span class="footer__span footer__span-company--style">© 2021 ТОВ Юридична компанія «HLEGALS»</span>
+            </div>     
         </div>
     </footer>
     

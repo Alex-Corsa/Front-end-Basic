@@ -77,3 +77,20 @@
                 padding: 76px 20px 0;
             }
 }
+
+@media screen and (max-width: 376px) {
+    .section-4__item-1, .section-4__item-inner1 {
+        border-radius: 10px 10px 0 0;
+    }
+    .section-4__item {
+        min-width: 335px;
+    }
+    .section-4__h3 {
+        @include some_text (18px,21px);
+        color: $color-Main;
+    }
+    .section-4__span {
+        @include some_text (18px,26px);
+        color: $color-Text_Grey;
+    }
+}

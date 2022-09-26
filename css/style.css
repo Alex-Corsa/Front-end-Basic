@@ -1,0 +1,162 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.black{
+    background: black;
+}
+.red{
+    background: #ee191f;
+}
+.skyblue{
+    background: #47caf2;
+}
+.powderblue{
+    background: #bee7f5;
+}
+.white{
+    background: white;
+}
+.box_panda{
+    width: 482px;
+    height: 650px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.pandas_head{
+    width: 450px;
+    height: 330px;
+    border-radius: 250px 250px 250px 250px;
+    border: 10px solid black;
+    position: relative;
+    left: 32px;
+    top: 160px;
+}
+.hat{
+    position: absolute;
+    right: 78px;
+    bottom: 150px;   
+}
+.heart{
+    position: absolute;
+    left: 310px;
+    top: 50px;
+}
+.ear{
+    width: 100px;
+    height: 100px;
+    border-radius: 85px 60px 85px 40px;
+    position: absolute;
+    right: -5px;
+    bottom: 212px;
+    z-index: -1;
+}
+.left_eye{
+    width: 140px;
+    height: 105px;
+    border-radius: 70% 40%;
+    position: absolute;
+    left: 35px;
+    bottom: 70px;
+}
+.left_large_apple{
+    width: 56px;
+    height: 52px;
+    position: absolute;
+    border-radius: 50%;
+    right: 15px;
+    top: 10px;
+}
+.left_small_apple{
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    border-radius: 50%;
+    left: 40px;
+    top: 15px;
+}
+.right_eye{
+    width: 140px;
+    height: 105px;
+    border-radius: 40% 70%;
+    position: absolute;
+    right: 35px;
+    bottom: 70px;
+}
+.right_large_apple{
+    width: 56px;
+    height: 52px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.right_small_apple{
+    width: 25px;
+    height: 23px;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+.nose{
+    width: 40px;
+    height: 20px;
+    border-radius: 60%;
+    position: absolute;
+    left: 195px;
+    bottom: 96px;
+}
+.mot{
+    position: absolute;
+    left: 185px;
+    bottom: 63px;
+}
+.left_hand{
+    width: 102px;
+    height: 85px;
+    position: absolute;
+    border-radius: 70%;
+    left: 80px;
+    top: 260px;
+}
+.right_hand{
+    width: 102px;
+    height: 85px;
+    position: absolute;
+    border-radius: 70%;
+    right: 80px;
+    top: 260px;
+}
+.torso{
+    width: 320px;
+    height: 160px;
+    border: 10px solid black;
+    position: relative;
+    border-radius: 65% 63% 60% 55%;
+    left: 100px;
+    top: 140px;
+    z-index: -1;
+
+}
+.left_foot{
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    border-radius: 45% 90% 50% 100%;
+    left: -40px;
+    top: 50px;
+}
+.right_foot{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    border-radius: 70% 40% 65% 30%;
+    right: -50px;
+    top: 55px;
+}

@@ -1,0 +1,91 @@
+*, html, body{
+    width: 0;
+    height: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    width: 100%;
+    background: #0e0e0e;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+.maket{
+    width: 1000px;
+    height: 666px;
+    max-width: 1000px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.65);
+}
+.fon{
+    width: 1000px;
+    height: 666px;
+    float: right
+}
+.pn{
+    width: 669px;
+    height: 394px;
+    float: right;
+    margin-top: -666px;
+}
+nav{
+    color: #99a2b1;
+    position: relative;
+    margin-top: -616px;
+    margin-left: 16px;
+    float: left;
+}
+ul{
+    width: 279px;
+}
+li{
+    width: 55px;
+    height: 16px;
+    float: left;
+}
+h1{
+    width: 159px;
+    height: 18px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 151px;
+    margin-left: 96px;
+}
+.p_1{
+    width: 466px;
+    font-size: 13px;
+    line-height: 16px;
+    position: absolute;
+    margin-top: 179px;
+    margin-left: 95px;
+}
+.p_2{
+    width: 466px;
+    font-size: 13px;
+    line-height: 16px;
+    position: absolute;
+    margin-top: 256px;
+    margin-left: 96px;
+}
+.p_3{
+    width: 466px;
+    font-size: 13px;
+    line-height: 16px;
+    position: absolute;
+    margin-top: 351px;
+    margin-left: 96px;
+}
+.p_4{
+    width: 126px;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    margin-top: 606px;
+    margin-left: 55px;
+    color: #4b5056;
+    font-weight: bold;
+}

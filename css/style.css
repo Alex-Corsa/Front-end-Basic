@@ -1,0 +1,283 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+.bg-black{
+    background-color: #000000;
+}
+.bg-white{
+    background: #fff;
+}
+.bg-purple{
+    background: #9574b4;
+}
+.bg-orange{
+    background: #f5ba20;
+}
+.bg-red{
+    background: #df1f26;
+}
+.bg-sandy{
+    background: #fdc580;
+}
+.bg-pink{
+    background: #e73896;
+}
+.part-piggy{
+    width: 984px;
+    margin: auto;
+}
+.part-ears{
+    width: 984px;
+    margin: auto;    
+}
+.part-left-ear{
+    width: 260px;
+    height: 180px;
+    margin-left: 114px;
+    float: left;
+}
+.part-left-ear-inside{
+    width: 148px;
+    height: 138px;
+    margin: 15px 55px;
+}
+.part-right-ear{
+    width: 260px;
+    height: 180px;
+    margin-right: 114px;
+    float: right;    
+}
+.part-right-ear-inside{
+    width: 148px;
+    height: 138px;
+    margin: 15px 55px;
+}
+.clear{
+    clear: both;
+}
+.part-head{
+    width: 984px;
+    height: 647px;
+    margin: auto;
+}
+.part-left-eye{
+    width: 262px;
+    height: 123px;
+    margin-left: 128px;
+    margin-top: 90px;
+    padding-top: 58px;
+    float: left;
+}
+.part-left-eye-apple{
+    width: 92px;
+    height: 124px;
+    margin-left: auto;
+}
+.part-right-eye{
+    width: 262px;
+    height: 123px;
+    margin-right: 100px;
+    margin-top: 90px;
+    padding-top: 58px;
+    float: right;
+}
+.part-right-eye-apple{
+    width: 92px;
+    height: 124px;
+    margin-right: auto;
+}
+.part-nose{
+    width: 320px;
+    height: 113px;
+    margin: auto;
+    margin-top: 38px;
+
+}
+.part-nostril-left{
+    width: 63px;
+    height: 84px;
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+.part-nostril-right{
+    width: 63px;
+    height: 84px;
+    margin-right: 50px;
+    margin-top: 30px;
+    float: right;
+}
+.part-mouth{
+    width: 751px;
+    height: 90px;
+    margin: auto;
+    margin-top: 40px;
+}
+.tooth-top-1{
+    width: 62px;
+    height: 45px;
+    margin-left: 110px;
+    margin-right: 22px;
+    float: left;
+}
+.tooth-top-2{
+    width: 62px;
+    height: 45px;
+    margin-left: 22px;
+    margin-right: 26px;
+    float: left
+}
+.tooth-top-3{
+    width: 62px;
+    height: 45px;
+    margin-left: 26px;
+    margin-right: 22px;
+    float: left
+}
+.tooth-top-4{
+    width: 62px;
+    height: 45px;
+    margin-left: 22px;
+    margin-right: 28px;
+    float: left
+}
+.tooth-top-5{
+    width: 62px;
+    height: 45px;
+    margin-left: 28px;
+    margin-right: 22px;
+    float: left
+}
+.tooth-top-6{
+    width: 62px;
+    height: 45px;
+    margin-left: 22px;
+    margin-right: 28px;
+    float: left
+}
+.tooth-bottom-1{
+    width: 62px;
+    height: 45px;
+    margin-left: 46px;
+    margin-right: 22px;
+    float: left
+}
+.tooth-bottom-2{
+    width: 62px;
+    height: 45px;
+    margin-left: 22px;
+    margin-right: 26px;
+    float: left
+}
+.tooth-bottom-3{
+    width: 62px;
+    height: 45px;
+    margin-left: 26px;
+    margin-right: 22px;
+    float: left
+}
+.tooth-bottom-4{
+    width: 62px;
+    height: 45px;
+    margin-left: 22px;
+    margin-right: 29px;
+    float: left
+}
+.tooth-bottom-5{
+    width: 62px;
+    height: 45px;
+    margin-left: 29px;
+    margin-right: 22px;
+    float: left
+}
+.tooth-bottom-6{
+    width: 62px;
+    height: 45px;
+    margin-left: 22px;
+    margin-right: 84px;
+    float: left
+}
+.part-neck{
+    width: 260px;
+    height: 55px;
+    padding-top: 24px;
+    margin: auto;
+}
+.part-line{
+    width: 260px;
+    height: 29px;
+}
+.part-body{
+    width: 719px;
+    height: 751px;
+    margin: auto;
+    border-radius: 40px;
+}
+.part-left-hand{
+    width: 80px;
+    height: 174px;
+    margin-left: -80px;
+    margin-top: 75px;
+    float: left;
+}
+.part-left-wrist{
+    width: 39px;
+    height: 174px;
+    margin-left: -39px;
+    border-radius: 30px 0 0 30px;
+    float: left;
+}
+.part-disk{
+    width: 429px;
+    height: 429px;
+    margin-right: 117px;
+    margin-top: 272px;
+    border-radius: 50%;
+    float: right;
+}
+.part-right-hand{
+    width: 80px;
+    height: 174px;
+    margin-right: -80px;
+    margin-top: 75px;
+    float: right;
+}
+.part-right-wrist{
+    width: 39px;
+    height: 174px;
+    margin-right: -39px;
+    border-radius: 0 30px 30px 0;
+    float: right;
+}
+.part-legs{
+    width: 984px;
+    height: 152px;
+    margin: auto;
+}
+.part-left-leg{
+    width: 159px;
+    height: 100px;
+    margin-left: 200px;
+    float: left;
+}
+.part-left-foot{
+    width: 159px;
+    height: 39px;
+    margin-top: 100px;
+    border-radius: 0 0 30px 30px;
+    float: left;
+}
+.parts-right-leg{
+    width: 159px;
+    height: 100px;
+    margin-right: 200px;
+    float: right;
+}
+.part-right-foot{
+    width: 159px;
+    height: 39px;
+    margin-top: 100px;
+    border-radius: 0 0 30px 30px;
+    float: right;
+}

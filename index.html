@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning Front-End Basic</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+            background: url(assets/electronics_store.png) no-repeat;
+            background-size: 100%;
+        }
+    </style>
+    <title>Document</title>
 </head>
 <body>
-  
+    <nav class="menu">
+        <ul>
+            <li class="menu-item"><a class="menu-item-link home pressing" href="#">Home</a></li>
+            <li class="menu-item"><a class="menu-item-link catalog" href="#">Catalog</a>
+                <ul class="menu-inner">
+                    <li class="menu-item-products"><a class="menu-item-link" href="#">Phones</a>
+                        <ul class="menu-inner-brand">
+                    <li class="menu-item-container"><a class="menu-item-link" href="#">Samsung</a>
+                        <ul class="menu-inner-model">
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/samsung/c120/">C120</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/samsung/s500i/">S500i</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/samsung/d800/">D800</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/samsung/d500/">D500</a></li>
+                        </ul>
+                        </li>
+                    <li class="menu-item-container"><a class="menu-item-link" href="#">Nokia</a>
+                        <ul class="menu-inner-model nokia_mob">
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/nokia/6233/">6233</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/nokia/n92/">N92</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/nokia/e60/">E60</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/nokia/3250/">3250</a></li>
+                        </ul>
+                        </li>
+                    <li class="menu-item-container"><a class="menu-item-link" href="#">Siemens</a>
+                        <ul class="menu-inner-model siemens_mob">
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/siemens/m65/">M65</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/siemens/s65/">S65</a></li>
+                            <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/siemens/c65/">C65</a></li>
+                        </ul>
+                        </li>
+                            <li class="menu-item-container"><a class="menu-item-link" href="#">Motorola</a>
+                                <ul class="menu-inner-model motorola_mob">
+                                    <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/motorola/e1070/">E1070</a></li>
+                                    <li><a class="menu-item-link" href="http://www.mobile-arsenal.com.ua/motorola/c118/">C118</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-products"><a class="menu-item-link" href="#">Laptops</a>
+                        <ul class="menu-inner-brand laptops">
+                            <li class="menu-item-container"><a class="menu-item-link" href="#">Apple</a>
+                                <ul class="menu-inner-model apple_lap">
+                                    <li><a class="menu-item-link" href="https://comfy.ua/noutbuk-apple-macbook-pro-m1-13-3-256gb-z11b000q8-space-grey.html">Pro M1</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/noutbuk-apple-new-macbook-air-13-3-256gb-gold-arm-2020.html">Air M1</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-container"><a class="menu-item-link" href="#">HP</a>
+                                <ul class="menu-inner-model hp_lap">
+                                    <li><a class="menu-item-link" href="https://comfy.ua/noutbuk-hp-zbook-fury-17-g7-9ve95av-v4-silver.html">Fury 17</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/noutbuk-hp-elite-dragonfly-max-2l4h1av-v1-black.html">Dragonfly</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-container"><a class="menu-item-link" href="#">Lenovo</a>
+                                <ul class="menu-inner-model lenovo_lap">
+                                    <li><a class="menu-item-link" href="https://comfy.ua/noutbuk-lenovo-t14s-g2-t-villi-black-20wm009nra.html">T14s G2</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/noutbuk-lenovo-yoga-slim-7-15itl05-82ac007cra-slate-grey.html">Slim7</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-products">
+                        <a class="menu-item-link" href="#">Tablet</a>
+                        <ul class="menu-inner-brand pl">
+                            <li class="menu-item-container"><a class="menu-item-link" href="#">Samsung</a>
+                                <ul class="menu-inner-model samsung_pl">
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshet-samsung-galaxy-tab-s7-sm-t975nzkasek-grey.html">Tab S7</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshet-samsung-galaxy-tab-s6-lite-10-4-lte-64gb-silver-sm-p615nzaasek.html">Tab S6</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshet-samsung-galaxy-tab-a8-lte-4-64-dark-grey-sm-x205nzaesek.html">Tab A8</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-container"><a class="menu-item-link" href="#">Apple</a>
+                                <ul class="menu-inner-model apple_pl">
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshetnyj-komp-juter-apple-ipad-pro-12-9-cellular-128gb-space-grey-2021.html">Pro 12</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshetnyj-komp-juter-apple-ipad-pro-11-wi-fi-512gb-silver-2021.html">Pro 11</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshet-apple-ipad-air-2020-cellular-256gb-silver.html">Air 10</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-container"><a class="menu-item-link" href="#">Lenovo</a>
+                                <ul class="menu-inner-model lenovo_pl">
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshet-lenovo-tab-p12-pro-tb-q706f-8-256gb-wifi-za9d0020ua-storm-grey.html">P12 Pro</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshet-lenovo-tab-p11-pro-6-128-lte-slate-grey-kb-pen-za7d0074ua.html">P11 Pro</a></li>
+                                    <li><a class="menu-item-link" href="https://comfy.ua/ua/planshet-lenovo-tab-m10-plus-fhd-4-128-lte-za5v0111ua-iron-grey.html">M10</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item"><a class="menu-item-link" href="#">Contacts</a>
+                <ul class="menu-inner">
+                    <li class="menu-item-country"><a class="menu-item-link" href="#">Ukraine</a>
+                        <ul class="menu-inner-cities ukraine">
+                            <li><a class="menu-item-link pressing" href="#">Dnipro</a></li>
+                            <li><a class="menu-item-link pressing" href="#">Kharkov</a></li>
+                            <li><a class="menu-item-link pressing" href="#">Odessa</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-country"><a class="menu-item-link" href="#">Bulgaria</a>
+                        <ul class="menu-inner-cities bulgaria">
+                            <li><a class="menu-item-link pressing" href="#">Sofia</a></li>
+                            <li><a class="menu-item-link pressing" href="#">Plovdiv</a></li>
+                            <li><a class="menu-item-link pressing" href="#">Varna</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-country"><a class="menu-item-link" href="#">Poland</a>
+                        <ul class="menu-inner-cities poland">
+                            <li><a class="menu-item-link pressing" href="#">Poznan</a></li>
+                            <li><a class="menu-item-link pressing" href="#">Krakow</a></li>
+                            <li><a class="menu-item-link pressing" href="#">Wroclaw</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item"><a class="menu-item-link" href="#">Vacancies</a>
+                <ul class="menu-inner">
+                    <li class="menu-item"><a class="menu-item-link vacancies pressing" href="#">Front - End</a></li>
+                    <li class="menu-item"><a class="menu-item-link vacancies pressing" href="#">Back - End</a></li>
+                </ul>
+            </li>
+            <li class="menu-item"><a class="menu-item-link about_us pressing" href="#">About Us</a></li>
+            <li class="menu-item"><a class="menu-item-link shopping pressing" href="#">shopping</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
